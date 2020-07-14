@@ -11,12 +11,10 @@ const App = () => {
   const [filteredPosts, setFilteredPosts] = useState([])
 
   const filter = e => {
+    e.preventDefault()
     setQuery(e.target.value)
-    const lowerQuery = query;
-    lowerQuery.toLowerCase()
-    setFilteredPosts(posts.filter(post => post.username.toLowerCase().startsWith(lowerQuery)))
+    setFilteredPosts(posts.filter(post => post.username.toLowerCase().startsWith(e.target.value.toLowerCase())))
   }
-
 
   const likePost = postId => {
     const updatedPosts = posts.map(post => {
@@ -25,9 +23,8 @@ const App = () => {
           ...post,
           likes: post.likes + 1
         }
-      } else {
-        return post
       }
+      return post
     })
     setPosts(updatedPosts)
   };
