@@ -54,6 +54,186 @@ const dummyData = [
             },
         ],
     },
+    {
+        id: 3,
+        username: "Rando",
+        thumbnailUrl: 'http://placeimg.com/641/360/any',
+        imageUrl: 'http://placeimg.com/640/360/any',
+        likes: 4307,
+        timestamp: "July 15th 2017, 03:12:09 pm",
+        comments: [
+            {
+                id: 36,
+                username: "twitch",
+                text: "Epic Street Fighter action here in Vegas!",
+            },
+            {
+                id: 37,
+                username: "michaelmarzetta",
+                text: "Omg that match was crazy",
+            },
+            {
+                id: 38,
+                username: "themexican_leprechaun",
+                text: "What a setup",
+            },
+            {
+                id: 39,
+                username: "dennis_futbol",
+                text: "It that injustice",
+            },
+        ],
+    },
+    {
+        id: 4,
+        username: "Mongo",
+        thumbnailUrl: 'http://placeimg.com/642/360/any',
+        imageUrl: 'http://placeimg.com/640/360/any',
+        likes: 32,
+        timestamp: "July 15th 2017, 03:12:09 pm",
+        comments: [
+            {
+                id: 36,
+                username: "twitch",
+                text: "Epic Street Fighter action here in Vegas!",
+            },
+            {
+                id: 37,
+                username: "michaelmarzetta",
+                text: "Omg that match was crazy",
+            },
+            {
+                id: 38,
+                username: "themexican_leprechaun",
+                text: "What a setup",
+            },
+            {
+                id: 39,
+                username: "dennis_futbol",
+                text: "It that injustice",
+            },
+        ],
+    },
+    {
+        id: 5,
+        username: "twitch",
+        thumbnailUrl: 'http://placeimg.com/639/360/any',
+        imageUrl: 'http://placeimg.com/640/360/any',
+        likes: 231,
+        timestamp: "July 15th 2017, 03:12:09 pm",
+        comments: [
+            {
+                id: 36,
+                username: "twitch",
+                text: "Epic Street Fighter action here in Vegas!",
+            },
+            {
+                id: 37,
+                username: "michaelmarzetta",
+                text: "Omg that match was crazy",
+            },
+            {
+                id: 38,
+                username: "themexican_leprechaun",
+                text: "What a setup",
+            },
+            {
+                id: 39,
+                username: "dennis_futbol",
+                text: "It that injustice",
+            },
+        ],
+    },
+    {
+        id: 6,
+        username: "twins",
+        thumbnailUrl: 'http://placeimg.com/640/360/any',
+        imageUrl: 'https://picsum.photos/250',
+        likes: 444,
+        timestamp: "July 15th 2017, 03:12:09 pm",
+        comments: [
+            {
+                id: 36,
+                username: "twitch",
+                text: "Epic Street Fighter action here in Vegas!",
+            },
+            {
+                id: 37,
+                username: "michaelmarzetta",
+                text: "Omg that match was crazy",
+            },
+            {
+                id: 38,
+                username: "themexican_leprechaun",
+                text: "What a setup",
+            },
+            {
+                id: 39,
+                username: "dennis_futbol",
+                text: "It that injustice",
+            },
+        ],
+    },
+    {
+        id: 7,
+        username: "mango87",
+        thumbnailUrl: 'http://placeimg.com/640/360/any',
+        imageUrl: 'https://picsum.photos/250',
+        likes: 3221,
+        timestamp: "July 15th 2017, 03:12:09 pm",
+        comments: [
+            {
+                id: 36,
+                username: "helloWorld",
+                text: "Epic Street Fighter action here in Vegas!",
+            },
+            {
+                id: 37,
+                username: "michaelmarzetta",
+                text: "Omg that match was crazy",
+            },
+            {
+                id: 38,
+                username: "themexican_leprechaun",
+                text: "What a setup",
+            },
+            {
+                id: 39,
+                username: "dennis_futbol",
+                text: "It that injustice",
+            },
+        ],
+    },
+    {
+        id: 8,
+        username: "Philly",
+        thumbnailUrl: 'https://picsum.photos/250',
+        imageUrl: 'https://picsum.photos/250',
+        likes: 100,
+        timestamp: "July 15th 2017, 03:12:09 pm",
+        comments: [
+            {
+                id: 36,
+                username: "GreatOne",
+                text: "Epic Street Fighter action here in Vegas!",
+            },
+            {
+                id: 37,
+                username: "michaelmarzetta",
+                text: "Omg that match was crazy",
+            },
+            {
+                id: 38,
+                username: "themexican_leprechaun",
+                text: "What a setup",
+            },
+            {
+                id: 39,
+                username: "dennis_futbol",
+                text: "It that injustice",
+            },
+        ],
+    }
 ];
 
 export default dummyData;
